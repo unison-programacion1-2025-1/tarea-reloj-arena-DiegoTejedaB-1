@@ -29,10 +29,11 @@ def main():
     # Intentar convertir la altura a entero
     try:
         # TODO: Convertir m_str a entero y asignarlo a m
-        pass
+        m = int(m_str)
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
-        pass
+        print("Error: La altura debe ser un numero entero")
+        return
 
     # TODO: llamar a la función reloj_arena con los parámetros m y s
 
